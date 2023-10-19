@@ -1,0 +1,53 @@
+.Imagem{
+    width: 76px!important;
+    height: 76px!important;
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+.titulo{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+@media screen and (min-width:840px) {
+body{background: rgb(204, 204, 253);}
+
+    .Imagem{
+        border: 3px solid rgb(147, 132, 216);
+        width: 100px!important;
+        height: 100px!important;
+    }
+
+    .titulo_cabecalho{
+        font-size: 25px;
+        color:rgb(34, 14, 88);
+        
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    body{background: rgb(228, 173, 241);}
+
+    .Imagem{
+        border: 3px solid rgb(207, 108, 207);
+        width: 130px!important;
+        height: 130px!important;
+    }
+
+    .titulo_cabecalho{
+        font-size: 35px;
+        color:rgb(134, 65, 134);
+        
+    }
+
+
+    
+}
